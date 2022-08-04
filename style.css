@@ -12,12 +12,23 @@ nav{
     display: flex;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
 .row{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
 }
+
+.purple{
+    color: #6415ff;
+}
+
+
 
 /*
 
@@ -61,4 +72,55 @@ NAVEGATION BAR
     background-color: #6415ff;
     color: #F7FAFC;
 }
+
+
+/*
+
+HEADER
+
+*/
+
+.header__container{
+    display: flex;
+    padding-top: 100px;
+}
+
+.header__description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__img--wrapper{
+    width: 60%;
+}
+
+.header__heading{
+    font-size: 48px;
+}
+
+.header__para{
+    font-size: 18px;
+    padding: 12px 0 26px 0;
+}
+
+.header__email{
+    border: 2px solid #6415ff;
+    border-radius: 24px;
+    padding: 12px 64px 12px 32px;
+}
+
+.header__button{
+    border: 2px solid #6415ff;
+    border-radius: 24px;
+    padding: 12px 32px;
+    background-color: #6415ff;
+    color: #F7FAFC;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 5;
+}
+
+
 
