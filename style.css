@@ -28,6 +28,10 @@ img{
     color: #6415ff;
 }
 
+p{
+    line-height: 1.5;
+}
+
 
 
 /*
@@ -73,6 +77,13 @@ NAVEGATION BAR
     color: #F7FAFC;
 }
 
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav__link--primary:hover{
+    text-decoration: none;
+}
 
 /*
 
