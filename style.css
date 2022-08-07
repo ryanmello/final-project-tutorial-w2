@@ -175,8 +175,7 @@ Services
 .service{
     display: flex;
     width: calc(100%/3);
-    padding-bottom: 64px;
-    
+    padding-bottom: 64px;   
 }
 
 .img__container{
@@ -193,7 +192,7 @@ Services
 }
 
 .text__container{
-    padding-left: 8px;
+    margin: 8px 0 0 16px;
 }
 
 .service__name{
@@ -204,9 +203,6 @@ Services
     line-height: 2;
 }
 
-.service__centering{
-    
-}
 
 
 
